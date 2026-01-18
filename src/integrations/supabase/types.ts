@@ -14,6 +14,42 @@ export type Database = {
   }
   public: {
     Tables: {
+      document_access_logs: {
+        Row: {
+          action: string
+          created_at: string
+          document_title: string | null
+          document_type: string | null
+          id: string
+          metadata: Json | null
+          summary_generated_timestamp: string | null
+          upload_timestamp: string
+          user_id: string | null
+        }
+        Insert: {
+          action?: string
+          created_at?: string
+          document_title?: string | null
+          document_type?: string | null
+          id?: string
+          metadata?: Json | null
+          summary_generated_timestamp?: string | null
+          upload_timestamp?: string
+          user_id?: string | null
+        }
+        Update: {
+          action?: string
+          created_at?: string
+          document_title?: string | null
+          document_type?: string | null
+          id?: string
+          metadata?: Json | null
+          summary_generated_timestamp?: string | null
+          upload_timestamp?: string
+          user_id?: string | null
+        }
+        Relationships: []
+      }
       profiles: {
         Row: {
           avatar_url: string | null

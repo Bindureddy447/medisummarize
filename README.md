@@ -1,23 +1,17 @@
-# MediSummarize
+# Medisummarize
 
-MediSummarize is an AI-powered medical document summarization web application built to help users quickly understand clinical and medical documents.
+Clinical Document Summarizer Web App
 
-## 🚀 Project Overview
+## Features
+- Upload and summarize medical documents
+- Real-time analysis with Supabase integration
+- Dashboard for summaries and notes
 
-This project allows users to upload or input medical text and receive concise, meaningful summaries using modern web technologies.
+## Setup
+1. Install dependencies: `npm install` and `pip install -r requirements.txt`
+2. Run backend: `python app.py`
+3. Run frontend: `npm run dev`
 
-## 🛠️ Tech Stack
-
-- Vite
-- React
-- TypeScript
-- Tailwind CSS
-- shadcn/ui
-
-## 📦 Setup Instructions
-
-Follow these steps to run the project locally:
-
-### 1️⃣ Clone the repository
-```sh
-git clone https://github.com/Bindureddy447/medisummarize.git
+## Notes
+- Local DB: summaries.db
+- Config files: vite.config.ts, package-lock.json
